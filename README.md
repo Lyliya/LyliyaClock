@@ -25,16 +25,34 @@ Build your own LED clock easily with an esp866 and ledstrips
 
 Total cost : 40€ (20€ if you already have basic tools)
 
-### 3D printed cases
-TBD
+### 3D printed case
+
+Print the two part body `3d/` and `3d/`  
+![body](/assets/body.png)
+
+Print the LED box and glue them together  
+![box](/assets/ledbox.png)
+
+Print 2x LED plate and glue them together  
+![plate](/assets/plate.png)
 
 ## Construction
-TBD
 
-![Diffusion demo](/assets/IMG_2386.JPEG)  
+### Wiring
+
+Fix your led in the LED plate making a zigzag pattern (see wiring under) using double sided tape
+
+Connect your led in a XY matrix, make sure the white arrows follow the path in a alternative way, or your LED row wont work  
+Replace the Arduino with your ESP8266 (idk how to do that in Tinkercad), and your 5V power supply with yours, wiring is the same
+![Wiring](/assets/connection.png)
+
+When your LED are secured on the plate, glue the led boxes on top and slide the plate in the notch on the body, and close everything together, You should have something like this
+![Clock Without diffusion](/assets/IMG_2386.JPEG)  
 
 I use paper for the LED diffusion, its way cheaper than plexiglass and still have that smooth display for the LED  
-![Clock Without diffusion](/assets/IMG_2359.JPEG)
+![Diffusion test](/assets/IMG_2359.JPEG)
+
+Cut a piece of paper to the dimension of the clock, and glue it to the side with super glue
 
 ## Flashing the code
 You can find the arduino project in `clock/clock.ino`
