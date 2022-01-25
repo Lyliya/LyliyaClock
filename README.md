@@ -2,7 +2,7 @@
 
 Build your own LED clock easily with an esp866 and ledstrips
 
-![End product](/assets/IMG_5729.JPEG)
+![End product](/assets/IMG_5729.jpeg)
 
 ## Features
 - Weather information, display current weather and temperature (metric system), custom image for different weather (sun, cloud, rain, ...)
